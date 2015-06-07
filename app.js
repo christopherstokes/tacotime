@@ -3,7 +3,7 @@ var app = express();
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var cloudinary = require('cloudinary');
-var gm = require('googlemaps');
+//var gm = require('googlemaps');
 var fs = require('fs');
 
 // file is included here:
