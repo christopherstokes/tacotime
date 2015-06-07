@@ -1,28 +1,36 @@
 {
-	"name": "tacotime",
-	"version": "0.0.1",
-	"description": "Find tacos near you and add your favorite taco trucks. Eat a taco already.",
-	"main": "index.js",
-	"scripts": {
-		"test": "mocha"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/xkfngs/tacotime.git"
-	},
-	"keywords": [
-		"tacos",
-		"maps",
-		"food"
-	],
-	"author": "Christopher Stokes <christopherstokes@gmail.com> (https://github.com/xkfngs)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/xkfngs/tacotime/issues"
-	},
-	"homepage": "https://github.com/xkfngs/tacotime#readme",
-	"dependencies": {
-		"express": "^4.12.4",
-		"mocha": "^2.2.5"
-	}
+  "name": "tacotime",
+  "version": "0.0.1",
+  "description": "Find tacos near you and add your favorite taco trucks. Eat a taco already.",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.1.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkfngs/tacotime.git"
+  },
+  "keywords": [
+    "tacos",
+    "maps",
+    "food"
+  ],
+  "author": "Christopher Stokes <christopherstokes@gmail.com> (https://github.com/xkfngs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkfngs/tacotime/issues"
+  },
+  "homepage": "https://github.com/xkfngs/tacotime#readme",
+  "dependencies": {
+    "cloudinary": "^1.2.1",
+    "express": "^4.12.4",
+    "hamljs": "^0.6.2",
+    "mocha": "^2.2.5",
+    "nconf": "^0.7.1"
+  }
 }
