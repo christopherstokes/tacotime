@@ -29,6 +29,7 @@
   "dependencies": {
     "cloudinary": "^1.2.1",
     "express": "^4.12.4",
+    "google-maps": "^3.0.0",
     "hamljs": "^0.6.2",
     "mocha": "^2.2.5",
     "mongodb": "^2.0.33",
