@@ -25,6 +25,23 @@
 	<div class="tacotext">
 		<h1>IT'S TACO TIME!</h1>
 	</div>
+	<div id="addTaco">
+		<a id="addTacoButton"></a>
+		<div id="addTacoForm" style="display:none;">
+			<form action="/", name="addTacos" id="addTacos", method="POST">
+				<ul>
+					<li>
+						<label for="name">Name:</label>
+						<input type="TEXT" id="name" />
+					</li>
+					<li>
+						<label for="location">Add Location</label>
+						<input type="BUTTON" id="location" onclick="getLocation()" />
+					</li>
+				</ul>
+			</form>
+		</div>
+	</div>
   <script src="js/script.js"></script>
 </body>
 </html>

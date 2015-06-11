@@ -8,27 +8,27 @@
 }
 @-moz-keyframes wiggle
 {
-    0% {-webkit-transform: rotateZ(5deg);}
-    25% {-webkit-transform: rotateZ(-5deg);}
-	50% {-webkit-transform: rotateZ(5deg);}
-    75% {-webkit-transform: rotateZ(-5deg);}
-	100% {-webkit-transform: rotateZ(5deg);}
+    0% {-moz-transform: rotateZ(5deg);}
+    25% {-moz-transform: rotateZ(-5deg);}
+	50% {-moz-transform: rotateZ(5deg);}
+    75% {-moz-transform: rotateZ(-5deg);}
+	100% {-moz-transform: rotateZ(5deg);}
 }
 @-o-keyframes wiggle
 {
-    0% {-webkit-transform: rotateZ(5deg);}
-    25% {-webkit-transform: rotateZ(-5deg);}
-	50% {-webkit-transform: rotateZ(5deg);}
-    75% {-webkit-transform: rotateZ(-5deg);}
-	100% {-webkit-transform: rotateZ(5deg);}
+    0% {-o-transform: rotateZ(5deg);}
+    25% {-o-transform: rotateZ(-5deg);}
+	50% {-o-transform: rotateZ(5deg);}
+    75% {-o-transform: rotateZ(-5deg);}
+	100% {-o-transform: rotateZ(5deg);}
 }
 @keyframes wiggle
 {
-    0% {-webkit-transform: rotateZ(5deg);}
-    25% {-webkit-transform: rotateZ(-5deg);}
-	50% {-webkit-transform: rotateZ(5deg);}
-    75% {-webkit-transform: rotateZ(-5deg);}
-	100% {-webkit-transform: rotateZ(5deg);}
+    0% {transform: rotateZ(5deg);}
+    25% {transform: rotateZ(-5deg);}
+	50% {transform: rotateZ(5deg);}
+    75% {transform: rotateZ(-5deg);}
+	100% {transform: rotateZ(5deg);}
 }
  
 .taco {  
@@ -71,3 +71,11 @@ body {
     -webkit-animation: bg 5s infinite; /* Chrome, Safari, Opera */
     animation: bg 5s;
 }
+
+/* CSS */
+.squareButton {
+	margin: 20px 0px;
+}
+.squareButton a {background-color: red; color: #FFFFFF; font-size; 12px; font-weight: bold; border-radius: 5px; -webkit-box-shadow: 2px 2px 4px #000;  -box-shadow: 2px 2px 4px #000; padding: 3px 4px;}
+.squareButton a:hover {}
+
