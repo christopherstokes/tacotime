@@ -17,16 +17,16 @@
 </head>
 
 <body class="colorswhoa">
-	<div class="taco">
+	<div id="taco">
 		<a href="https://www.google.com/maps/search/tacos+near+me/">
 			<img src="images/taco.png">
 		</a>
 	</div>
-	<div class="tacotext">
+	<div id="tacotext">
 		<h1>IT'S TACO TIME!</h1>
 	</div>
-	<div id="addTaco">
-		<a id="addTacoButton"></a>
+	<div id="addTaco" class="squareButton">
+		<a id="addTacoButton">ADD TACOS!!!1</a>
 		<div id="addTacoForm" style="display:none;">
 			<form action="/", name="addTacos" id="addTacos", method="POST">
 				<ul>
@@ -35,8 +35,7 @@
 						<input type="TEXT" id="name" />
 					</li>
 					<li>
-						<label for="location">Add Location</label>
-						<input type="BUTTON" id="location" onclick="getLocation()" />
+						<button id="location" type="button" onclick="getLocation()" >Add Location</button>
 					</li>
 				</ul>
 			</form>
