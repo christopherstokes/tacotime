@@ -1,0 +1,22 @@
+{
+    "name": "tacotime",
+    "description": "Find tacos near you and add your favorite taco trucks. Eat a taco already.",
+    "main": "main.js",
+    "authors": [
+        "xkfngs <christopherstokes@gmail.com>"
+    ],
+    "license": "ISC",
+    "moduleType": [],
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "public/vendor",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap-css": "^3.3.6"
+    }
+}
